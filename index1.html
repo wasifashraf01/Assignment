@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <div class="box">
+            <p id="first">Step 1: Account</p>
+            <p id="second">Step 2: Personal Details</p>
+            <p id="third">Step 3: Your Review</p>
+        </div>
+    </header> 
+    <form action="index2.html">
+        <fieldset>
+            <legend>Account</legend>
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" required placeholder="Email Address:"><br><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" name="password" id="pass" required maxlength="8" placeholder="Password:"><br><br>
+            <label for="pass">Confirm Password:</label><br>
+            <input type="password" name="password" id="pass" required maxlength="8" placeholder="Confirm Password:">
+            <br><br>
+            <input type="image" src="back.png" width="200">
+            <input type="image" src="next.PNG" width="200">
+        </fieldset>
+    </form>
+</body>
+</html>
